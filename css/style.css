@@ -1,0 +1,97 @@
+/* Font globale */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Carosello */
+.carousel-inner img {
+    max-width: 80%; /* Default per schermi piccoli */
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-caption h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    font-size: 1rem;
+    background: #111;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Titolo principale */
+h1 {
+    color: #ff0000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Pulsante audio */
+audio {
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Responsività con Media Queries */
+
+/* Tablet e dispositivi medi */
+@media (min-width: 768px) {
+    .carousel-inner img {
+        max-width: 50%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+}
+
+/* PC e schermi grandi */
+@media (min-width: 1024px) {
+    .carousel-inner img {
+        max-width: 30%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem;
+    }
+}
